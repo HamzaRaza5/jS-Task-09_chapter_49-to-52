@@ -1,0 +1,65 @@
+/*! QUESTION 01 */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(170, 109, 109);
+}
+#Container {
+  background-color: rgb(168, 95, 95);
+  display: flex;
+  flex-direction: column;
+  height: 35vh;
+}
+
+form {
+  width: 300px;
+}
+
+/*! QUESTION 02 */
+
+#q2 {
+  margin-top: 5%;
+}
+#Container2 {
+  background-color: rgb(168, 95, 95);
+}
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+.item-details {
+  width: 400px;
+}
+.full-details {
+  display: none;
+}
+
+/*! QUESTION 03 */
+
+#q3 {
+  margin-top: 5%;
+}
+
+#studentDataTable {
+  background-color: rgb(168, 95, 95);
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 95%;
+  height: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+th,
+td {
+  padding: 12px;
+  text-align: left;
+}

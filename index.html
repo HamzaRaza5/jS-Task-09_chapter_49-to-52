@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Java Script ch# 49-52</title>
+
+    <script src="./app.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- ! QUESTION 01 -->
+
+    <form id="signupForm">
+      <h1>QUESTION 01</h1>
+      <br />
+
+      <div id="Container">
+        <label for="firstName">First Name:</label>
+        <input
+          type="text"
+          id="firstName"
+          name="firstName"
+          placeholder="Enter Your First Name"
+          required
+        />
+        <br />
+
+        <label for="lastName">Last Name:</label>
+        <input
+          type="text"
+          id="lastName"
+          name="lastName"
+          placeholder="Enter Your Last Name"
+          required
+        />
+        <br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter Your Email"
+          required
+        />
+        <br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Your Password"
+          required
+        />
+        <br />
+
+        <button type="submit">Sign Up</button>
+      </div>
+
+      <div id="output"></div>
+    </form>
+
+    <!-- ! QUESTION 02 -->
+
+    <h1 id="q2">QUESTION 02</h1>
+
+    <div id="Container2">
+      <div class="item-details">
+        <h2>What is Java Script</h2>
+        <p>
+          JavaScript is a scripting or programming language that allows you
+          to...
+        </p>
+        <div class="full-details">
+          <p>
+            JavaScript is a scripting or programming language that allows you to
+            implement complex features on web pages — every time a web page does
+            more than just sit there and display static information for you to
+            look at — displaying timely content updates, interactive maps,
+            animated 2D/3D graphics, scrolling video jukeboxes, etc. — you can
+            bet that JavaScript is probably involved. It is the third layer of
+            the layer cake of standard web technologies, two of which (HTML and
+            CSS) we have covered in much more detail in other parts of the
+            Learning Area.
+          </p>
+        </div>
+        <button id="readMoreBtn">Read more</button>
+      </div>
+    </div>
+
+    <!-- ! QUESTION 03 -->
+
+    <h1 id="q3">QUESTION 03</h1>
+
+    <section>
+      <div id="studentDataTable">
+        <h3>Student Data Table</h3>
+
+        <table id="studentTable">
+          <thead>
+            <tr>
+              <th>Student Name</th>
+              <th>Father's Name</th>
+              <th>Class</th>
+              <th>Age</th>
+              <th>Grade</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <button onclick="addStudent()" id="addDataBtn">Add Data</button>
+      </div>
+    </section>
+  </body>
+</html>
